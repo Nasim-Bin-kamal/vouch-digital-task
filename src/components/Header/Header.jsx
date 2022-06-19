@@ -17,10 +17,14 @@ const Header = () => {
                         navbarScroll
                     >
 
+
+                    </Nav>
+                    <Nav>
+
                         <Button className='mx-2 my-1 border-0 rounded-1 btn-trial'>Start Free Trial</Button>
                         <Button className='mx-2 my-1 border-0 rounded-1 btn-login'>Login</Button>
-                    </Nav>
 
+                    </Nav>
 
                 </Navbar.Collapse>
             </Container>

@@ -16,7 +16,7 @@ const Login = () => {
         newLogindata[field] = value;
         setLoginData(newLogindata);
     }
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         fetch("https://reqres.in/api/login", {
             method: 'POST',
@@ -63,9 +63,9 @@ const Login = () => {
                             </Button>
                             <div className='remember-forget'>
                                 <Form.Group className="mb-1" controlId="formBasicCheckbox">
-                                    <Form.Check type="checkbox" label="Remember Password" />
+                                    <Form.Check type="checkbox" label="Remember Password?" />
                                 </Form.Group>
-                                <p className=''>Forget password</p>
+                                <p className=''>Forget password?</p>
                             </div>
                         </Form>
                     </Col>
