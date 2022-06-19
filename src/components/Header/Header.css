@@ -1,0 +1,16 @@
+.navbar-brand{
+    
+    color:#023047 !important; 
+}
+.dot{
+    color:#FB8500;
+}
+
+.btn-trial{
+    width: 180px;
+    background-color: #023047;
+}
+.btn-login{
+    width: 180px;
+    background-color: #FB8500;
+}

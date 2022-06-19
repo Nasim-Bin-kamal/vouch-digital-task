@@ -1,0 +1,9 @@
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+.title{
+    color:#2A2E31;
+}
