@@ -45,10 +45,12 @@ const Login = () => {
                                 <p>Please Login here</p>
                             </div>
                             {
-                                message && message.error && (
+                                message && (
                                     <Alert
                                         variant="danger" onClose={() => setShow(false)} dismissible
-                                    >{message?.error}</Alert>
+                                    >
+                                        {message.error || message.token}
+                                    </Alert>
                                 )
                             }
                             <Form.Group className="mb-3" controlId="formBasicEmail">
